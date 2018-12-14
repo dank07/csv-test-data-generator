@@ -226,7 +226,7 @@ function genData(columns, rows)
 }
 
 var dataRowsRequired = process.argv[3];
-var chunkSize = 1000;
+var chunkSize = 20000100;
 var columns = process.argv[2].split(',');
 
 console.log('dataRowsRequired', dataRowsRequired);
